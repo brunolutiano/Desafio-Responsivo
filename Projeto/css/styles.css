@@ -29,8 +29,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 14px 10px;
-  position: absolute;
-  
+  position: fixed;
+    
 } 
 
 .nav-container img {
@@ -46,7 +46,7 @@ a, a:hover {
 }
 
 .nav-web {
-  padding-left: 528px;
+  padding-left: 0;
 }
 
 .nav-brand {
@@ -444,6 +444,10 @@ footer {
 
   .nav-menu li {
     padding-right: 29px;  
+  }
+
+  .nav-web {
+    padding-left: 528px;
   }
 
   .notices-container {
